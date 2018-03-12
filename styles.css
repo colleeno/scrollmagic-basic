@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+h1 {
+    padding: 20% 0 0 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+p {
+    text-align: center;
+    color: #fff;
+}
+section {
+    height: 100vh;
+}
+#two .inner {
+  padding-top: 20%;
+}
+
+#one {
+  background-color: cornflowerblue;
+}
+#two {
+  background-color: navy;
+  z-index: 10;
+}
+#three {
+  background: #ececec;
+  transition: all 1s ease;
+}
+#four {
+  background: black;
+}
+#five h1, #five p{
+  color: black;
+}
+#three.active {
+  background: #666666;
+}
+#six {
+  background: pink;
+  /*position: relative;
+  top: -100vh;*/
+}
+
+.between {
+  background: #fff;
+  color: black;
+  z-index: 10;
+}
+
+h2 {
+  text-align: center;
+}
