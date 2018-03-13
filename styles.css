@@ -23,7 +23,7 @@ section {
   background-color: cornflowerblue;
 }
 #two {
-  background-color: navy;
+  background: url('images/ocean.jpg');
   z-index: 10;
 }
 #three {
